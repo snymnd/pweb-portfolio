@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>MyProfile</title>
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./component.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div>
+                <a href="#intro" class="my">MY</a>
+            </div>
+            <div class="nav-container">
+                <a href="#address" class="nav-button ">Address</a>
+                <a href="#skill" class="nav-button ">Skill/tools</a>
+                <a href="#works" class="nav-button ">Works</a>
+                <a href="#dreams" class="nav-button ">Dreams</a>
+                <a href="#roadmap" class="nav-button ">Roadmap</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main" >
+        <section id="intro">
+            <div class="intro-text">
+                <fieldset >
+                    <legend >
+                      <i>Introduce Me</i> 
+                    </legend>
+                </fieldset>
+                <span > Hard to Start <br> Easy to End</span>
+                <p >
+                    Hi, Perkenalkan saya Yunus. Saya adalah salah satu mahasiswa di departemen Teknik Informatika Institut Teknologi Sepuluh Nopember. <br>
+                    Dan ini merupakan portofolio singkat saya.
+                </p>
+                <table >
+                    <tr>
+                        <td>
+                            <i class="fa fa-envelope"></i>
+                        </td>
+                        <td>
+                            <p>muh.yunus310502@gmail.com</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa fa-phone"></i>
+                        </td>
+                        <td>
+                            <p>0895609615358</p>
+                        </td>
+                    </tr>
+                </table>
+                <a href="#address" class="thisme">This is Me</a>
+            </div>
+            <div class="intro-image">
+                <img src="../assets/pprofile.jpg" alt="profile pic" >
+            </div>
+        </section>       
+
+        <section id="address">
+            <h1 class="section-header">Get to Know Me Better</h1>
+            <article >
+                <div class="landmark-image">
+                    <img src="../assets/bengkulu_landmark.jpg" alt="Bengkulu Landmark" class="landmark">
+                    <img src="../assets/arrow-right.png" alt="arrow" class="arrow ">
+                    <img src="../assets/surabaya_landmark.jpg" alt="Surabaya Landmark" class="landmark">
+                </div>
+                <div class="address-text">
+                    <h2 >A little journey...</h2>
+                    <p >
+                        Saya tumbuh dan besar di sebuah kota kecil pesisir selatan Sumatera yang bernama kota <b>Bengkulu</b>.
+                        <br><br>
+                        Dengan alasan untuk menempuh pendidikan di <a href="#" ><u>Institut  Teknologi Sepuluh Nopember</u></a>
+                        membuat saya untuk merantau ke salah satu kota metropolitan di Indonesia, Kota Pahlawan <b>Surabaya</b>.
+                    </p>
+                    <span> <i class="fa fa-map-marker fa-align-center fa-2x"></i> Bumi Marina Emas, Keputih, Sukolilo, Surabaya</span>
+                </div>
+            </article>
+        </section>
+
+        <section id="skill">
+            <div class="skill-container">
+                <h2 >Skills & Tools</h2>
+                <div class="logos">
+                    <!-- skills -->
+                    <div>
+                        <img src="../assets/Html 5.png" alt="Html 5">
+                        <span>HTML 5</span>
+                    </div>
+                    <div>
+                        <img src="../assets/CSS3.png" alt="CSS 3">
+                        <span>CSS 3</span>
+                    </div>
+                    <div>
+                        <img src="../assets/JavaScript.png" alt="JavaScript">
+                        <span>Javascript</span>
+                    </div>
+                    <div>
+                        <img src="../assets/React.png" alt="React">
+                        <span>React</span>
+                    </div>
+                    <div>
+                        <img src="../assets/C++.png" alt="C++">
+                        <span>C/C++</span>
+                    </div>
+                    <!-- tools -->
+                    <div>
+                        <img src="../assets/Visual Studio.png" alt="Visual Studio">
+                        <span>VS Code</span>
+                    </div>
+                    <div>
+                        <img src="../assets/Git.png" alt="Git">
+                        <span>Git</span>
+                    </div>
+                    <div>
+                        <img src="../assets/Figma.png" alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                    <div>
+                        <img src="../assets/tailwind.png" alt="tailwind">
+                        <span>Tailwind</span>
+                    </div>
+                    <div>
+                        <img src="../assets/bootstrap.png" alt="bootstrap" >
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works">
+            <h1 class="section-header">My Works</h1>
+            <div class="works-container ">
+                <div class="left-item">
+                    <img src="../assets/BanckCrud.png" alt="BanckCrud" >
+                    <div class="works-text">
+                        <h2 >BANKCRUD</h2>
+                        <p >Aplikasi web sederhana yang mensimulasikan proses transaksi pada Bank. Web ini memiliki tujuan utama untuk mengaplikasikan proses transaksi Create, Read, Update dan Delete (CRUD) menggunakan Node.js</p>
+                        <p> <i class="fa fa-tags"></i> Node js, Express js, Mongo</p>
+                        <a href="https://github.com/snymnd/FP_RPL_Bank_Kel5" ><i class="fa fa-github"></i> Repository</a>
+                    </div>
+                </div>
+                <div class="right-item">
+                    <div class="img-container">
+                        <img src="../assets/Article-web.png" alt="Article-web">
+                    </div>
+                    <div class="works-text">
+                        <h2 >Web Article</h2>
+                        <p >Web artikel yang menyajikan berita-berita terbaru seputar dunia game. Web ini dibuat dengan html dan css native</p>
+                        <p><i class="fa fa-tags"></i> HTML 5, CSS 3, Article</p>
+                        <a href="https://github.com/snymnd/WebArticle_Project" ><i class="fa fa-github"></i> Repository</a>
+                        <a href="https://snymnd.github.io/WebArticle_Project/" ><i class="fa fa-desktop "></i> Deployment</a>
+                    </div>
+                </div>
+                <div class="left-item">
+                    <div class="img-container">
+                        <img src="../assets/todolist-app.png" alt="todolist-app">
+                    </div>
+                    <div class="works-text">
+                        <h2 >Todo List</h2>
+                        <p >Aplikasi Web todo list yang akan mencatat list hal-hal yang akan atau telah dikerjakan penggunanya.</p>
+                        <p><i class="fa fa-tags"></i> React, todolist</p>
+                        <a href="https://github.com/snymnd/todoList" ><i class="fa fa-github"></i> Repository</a>
+                    </div>
+                </div>
+                <div class="right-item">
+                    <div class="img-container">
+                        <img src="../assets/MovieFinder.png" alt="MovieFinder">
+                    </div>
+                    <div class="works-text">
+                        <h2 >Movie Finder</h2>
+                        <p >Aplikasi web yang berfungsi untuk mencari informasi judul film yang diinginkan. Web ini menggunakan API dari <a href="https://developers.themoviedb.org/3/">TMDb API</a></p>
+                        <p><i class="fa fa-tags"></i> React, TMDb API</p>
+                        <a href="https://github.com/snymnd/Final_Project_LBE" ><i class="fa fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="github">
+                <p> ... Project lainnya ?
+                    <a href="https://github.com/snymnd" ><i class="fa fa-github"></i> 
+                        snymnd
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <section id="dreams">
+            <h1 class="section-header">My Dreams</h1>
+            <div class="dream-container">
+                <div class="dream-img">
+                    <img src="../assets/chef.png" alt="chef">
+                </div>
+                <div class="dream-text">
+                    <fieldset>
+                        <legend>
+                            <h2><i>  CHEF </i></h2> 
+                        </legend>
+                    </fieldset>
+                    <ul class="">
+                        <li>Love to eat,</li>
+                        <li>Cooking shows enthusiasm,</li>
+                        <li>Onions cut expert,</li>
+                        <li>and Cannot cook</li>
+                    </ul>
+                    <Em>Definetly A Chef</Em>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap">
+            <h1 class="section-header">Roadmap</h1>            
+            <ol class="roadmap-container">
+                <li >
+                    <div >
+                        <div class="icon">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <div class="line "></div>
+                    </div>
+                    <div class="content">
+                        <h3 >Front-End</h3>
+                        <img src="../assets/frontend.jpg" alt="Front-End" width="500" >
+                    </div>
+                </li>
+                <li>
+                    <div >
+                        <div class="icon">
+                            <i class="fa fa-cutlery"></i>
+                        </div>
+                        <div class="line "></div>
+                    </div>
+                    <div class="content">
+                        <h3 >Chef</h3>
+                        <img src="https://az505806.vo.msecnd.net/cms/3d701132-733b-4cee-af45-81b7e15b3c18/8de56d4a-636b-495c-a8af-efcc6173eb1d.png" alt="Front-End" width="500" >
+                    </div>
+                </li>
+            </ol>
+        </section>        
+    </main>
+
+    <footer >
+        <span >© 2022 Muhammad Yunus</span>
+        <ul >
+            <li>
+                <a href="https://www.instagram.com/snymnd/" class=" "><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/snymnd" class=""> <i class="fa fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/muhammad-yunus-68920021b/" class="mr-4 "><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="mailto: muh.yunus310502@gmail.com" ><i class="fa fa-envelope "></i></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
